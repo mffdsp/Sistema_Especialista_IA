@@ -1,6 +1,6 @@
 ## Projeto IA - Sistema Especialista para recomendação de notebooks
 
-<p align="center"><a href="https://ufal.com" target="_blank"><img src="/img/uf.png" width="400"></a></p>
+<p align="center"><a href="https://ufal.br" target="_blank"><img src="/img/uf.png" width="400"></a></p>
 
 Instalação:
 
