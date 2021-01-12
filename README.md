@@ -78,10 +78,10 @@ Funcionamento:
         return None
 ```
 
-<a href='https://www.kaggle.com/ghadahalshehrei/laptops-info'>- Base de dados</a>
+<a href='https://www.kaggle.com/ghadahalshehrei/laptops-info' target="_blank">- Base de dados</a>
 
-<a href='https://drive.google.com/file/d/1WFREfKPIi2XKRzFq3tIXRyPSZfzlRMbR/view?usp=sharing'>- Diagrama de Árvore</a>
+<a href='https://drive.google.com/file/d/1WFREfKPIi2XKRzFq3tIXRyPSZfzlRMbR/view?usp=sharing' target="_blank">- Diagrama de Árvore</a>
 
-<a href='/dictionaries/notebooks.txt'>- Lista de Notebooks Inclusos</a>
+<a href='/dictionaries/notebooks.txt' target="_blank">- Lista de Notebooks Inclusos</a>
 
-<a href='/input.txt'>- Arquivo Inicial de Regras</a>
+<a href='/input.txt' target="_blank">- Arquivo Inicial de Regras</a>
