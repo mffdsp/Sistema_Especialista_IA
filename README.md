@@ -1,4 +1,4 @@
-## Projeto IA - Sistema Especialista para recomendação de notebooks
+<h2 align="center"> Projeto IA - Sistema Especialista para recomendação de notebooks </h2>
 
 <p align="center"><a href="https://ufal.br" target="_blank"><img src="/img/uf.png" width="400"></a></p>
 
