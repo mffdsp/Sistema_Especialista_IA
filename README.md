@@ -36,7 +36,7 @@ Funcionamento:
 
 <img src="/img/img_4.png" width="400">
 
-Utilização do algoritmo de backward chaining:
+- Utilização do algoritmo de backward chaining:
 
 ```python
     def solve(self):
@@ -77,3 +77,11 @@ Utilização do algoritmo de backward chaining:
             return self.set_state(state, is_fixed)
         return None
 ```
+
+<a href='https://www.kaggle.com/ghadahalshehrei/laptops-info'>- Base de dados</a>
+
+<a href='https://drive.google.com/file/d/1WFREfKPIi2XKRzFq3tIXRyPSZfzlRMbR/view?usp=sharing'>- Diagrama de Árvore</a>
+
+<a href='/dictionaries/notebooks.txt'>- Lista de Notebooks Inclusos</a>
+
+<a href='/input.txt'>- Arquivo Inicial de Regras</a>
