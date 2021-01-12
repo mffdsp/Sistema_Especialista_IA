@@ -22,16 +22,58 @@ Funcionamento:
 
 - Ao iniciar o bot:
 
-<img src="/img/inicio_.png" width="400">
+<img src="/img/inicio_.png" width="800">
 
 - Utilizando o bot e chegando a uma resposta:
 
-<img src="/img/img_2.png" width="400">
+<img src="/img/img_2.png" width="800">
 
 - Resposta final do bot:
 
-<img src="/img/img_3.png" width="400">
+<img src="/img/img_3.png" width="800">
 
 - Modo interface (em testes, desconsidere para avaliação):
 
-<img src="/img/img_4a.png" width="400">
+<img src="/img/img_4.png" width="400">
+
+Utilização do algoritmo de backward chaining:
+
+```python
+    def solve(self):
+        if self.visited is True:
+            return self.state
+
+        state = None
+        if self.state is not None:
+            state = self.state
+            if self.state_fixed is True:
+                return state
+        fixed_ret = []
+        unfixed_ret = []
+
+        f, u = self.solve_grouped_nodes(self.children, False)
+        fixed_ret.extend(f)
+        unfixed_ret.extend(u)
+
+        self.solve_grouped_nodes(self.operand_parents, True)
+
+        ret = fixed_ret if fixed_ret.__len__() is not 0 else unfixed_ret
+        if ret.__len__() is not 0:
+            if True in ret:
+                state = True
+            else:
+                state = False
+
+        is_fixed = True if fixed_ret.__len__() is not 0 else False
+
+        need_reverse = True
+        if state is None:
+            need_reverse = False
+            state = self.state
+
+        if state is not None:
+            if isinstance(self, NegativeNode) and need_reverse:
+                state = not state if state is not None else None
+            return self.set_state(state, is_fixed)
+        return None
+```
